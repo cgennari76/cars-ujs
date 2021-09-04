@@ -1,0 +1,3 @@
+// render car
+var body = document.getElementById("cars");
+body.innerHTML = "<%= escape_javascript(render @car) %>" + body.innerHTML;
